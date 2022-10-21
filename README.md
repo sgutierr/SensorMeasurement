@@ -1,4 +1,4 @@
-# Sensormeasurement Project
+# Sensor Measurement Project
 
 
 This project reads measurements from AMQ Broker queues (insidesensor,outsidesensor and insideactuator) sending them to these topics:insidesensor,outsidesensor and insideactuator  in a Kafka cluster.
