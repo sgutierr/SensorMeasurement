@@ -1,0 +1,26 @@
+{
+  "name": "InsideSensorMeasurement",
+  "type": "record",
+  "namespace": "com.redhat.demo.model",
+  "fields": [
+          {
+            "name": "temperature",
+            "type": "double"
+        },
+          {
+            "name": "humidity",
+            "type": "double"
+        },
+          {
+            "name": "co2",
+            "type": "int"
+          },
+          {
+            "name": "smoke",
+            "type": "int"
+
+          }
+        ]     
+}
+
+

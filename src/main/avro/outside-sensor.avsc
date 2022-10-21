@@ -1,0 +1,30 @@
+{
+  "name": "OutsideSensorMeasurement",
+  "type": "record",
+  "namespace": "com.redhat.demo.model",
+  "fields": [
+          {
+            "name": "temperature",
+            "type": "double"
+        },
+          {
+            "name": "humidity",
+            "type": "double"
+        },
+          {
+            "name": "pressure",
+            "type": "int"
+          },
+          {
+            "name": "uv",
+            "type": "int"
+
+          }
+          ,
+          {
+            "name": "pm10",
+            "type": "int"
+
+          }          
+        ]     
+}

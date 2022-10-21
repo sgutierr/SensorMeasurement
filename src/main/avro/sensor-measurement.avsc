@@ -1,0 +1,54 @@
+{
+  "name": "SensorMeasurement",
+  "type": "record",
+  "namespace": "com.redhat.demo.model",
+  "fields": [
+          {
+            "name": "sensor",
+                  "type": "string"
+          },
+          {
+            "name": "pressure",
+            "type": "double"
+          },
+          {
+            "name": "temperature",
+            "type": "double"
+        },
+          {
+            "name": "humidity",
+            "type": "double"
+        },
+          {
+            "name": "gasResistance",
+            "type": "double"
+          },
+          {
+            "name": "altitude",
+            "type": "double"
+          },
+          {
+            "name": "gps",
+            "type": {
+                "type": "array",
+                "items": 
+                {
+                    "name": "GPSCoordinates",
+                    "type": "record" ,
+                    "fields":[
+                        {"name":"name", "type":"double"}
+                    ]
+                }
+            }              
+          },
+          {
+            "name": "co2",
+            "type": "int"
+          },
+          {
+            "name": "ppm",
+            "type": "int"
+
+          }
+        ]     
+}
